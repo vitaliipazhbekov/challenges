@@ -9,7 +9,6 @@ if __name__ == '__main__':
         scores = list(map(float, line))
         student_marks[name] = scores
     query_name = input()
-
-if sum(scores) > 0:
-    print('%.2f'%(sum(scores) / n))
+    query_scores = student_marks[query_name]
+    print("{0:.2f}".format(sum(query_scores)/(len(query_scores))))
 
