@@ -1,5 +1,6 @@
 import sys
 
+
 def loops(number):
     # Loops problem solution function. 
     result = ''
