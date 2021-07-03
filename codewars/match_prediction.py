@@ -8,9 +8,9 @@ def f(x, y, a, b):
     score = 0
 
     if x == a and b == y:
-        score += 10
+        score = 10
 
     elif x > y and a > b or y > x and b > a or a == b and x == y:
-        score += 5
+        score = 5
 
     return score
